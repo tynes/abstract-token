@@ -1,0 +1,211 @@
+h1, h2, h3, h4, h5, p, div {
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+green is B8E986
+purple A75AEA
+grey is 4A4A4A at 80% opacity.
+*/
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.padding-sm {
+  padding: 0.5em;
+}
+
+.padding-lg {
+  padding: 3.5em;
+}
+
+/*
+this is used in multiple places!
+generally where things need to be overlaid
+on an image
+ */
+.landing-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.landing-image {
+  max-width: 100%;
+}
+
+.landing-image-button {
+  padding: 0.75em;
+  margin: 0.5em;
+}
+
+.landing-image-button-container {
+  text-align: center;
+  margin-top: 12em;
+}
+
+.landing-image-text-container {
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-image-text-left-long {
+  overflow-wrap: normal;
+  margin: 0 15%;
+  width: 70%;
+  text-align: left;
+}
+
+.landing-image-text {
+  margin: 0 auto;
+  position: absolute;
+  word-wrap: break-word;
+  overflow-wrap: normal;
+  width: 90%;
+  letter-spacing: 0.2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.landing-footer-container {
+  width: 100%;
+}
+
+.landing-footer-image {
+  width: 100%;
+}
+
+.landing-statement-container {
+  margin: 12em;
+  text-align: center;
+}
+
+.landing-main-copy-container {
+  text-align: center;
+  padding: 2.5em;
+}
+
+.landing-main-copy-container h3 {
+  font-size: 3em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-transform: uppercase; 
+}
+
+.landing-main-copy-container p {
+  font-size: 1.5em;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.dashboard-splash-text-container {
+  height: 24em;
+}
+
+.dashboard-splash-container {
+  position: relative;
+}
+
+.dashboard-splash-image {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard-dropdown {
+  margin: auto;
+  padding: 0.5em;
+}
+
+.asset-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mock-view-container {
+  padding: 4em;
+}
+
+.mock-view {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.purple-text {
+  color: #A75AEA;
+}
+
+.green-text {
+  color: #B8E986;
+}
+
+.white-text {
+  color: white;
+}
+
+.purple-background {
+  border-color: #A75AEA;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to bottom, #A75AEA 0, #b678ed 100%);
+}
+
+.white-background {
+  background: white;
+}
+
+.grey-text {
+  color: #4A4A4A;
+  opacity: 0.8;
+}
+
+.grey-background {
+  background: #4A4A4A;
+  opacity: 0.8;
+}
+
+/* links on top bar */
+.navbar a {
+  color: #4A4A4A;
+  opacity: 0.8;
+  text-decoration: none;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+.navbar {
+  background: white;
+}
+.shortcircuit-btn {
+  position: absolute;
+  width: 5%;
+  top: 43%;
+  left: 46%;
+  height: 4%;
+  transform: translate(-50%, -50%);
+}
+.force-front {
+  z-index: 999;
+}
+.position-absolute {
+  position: absolute;
+}
+.create-token-btn-container {
+  width: 100%;
+}
+.create-token-btn {
+  margin: 0 auto;
+  width: 35%;
+  margin: 1em 6em;
+  color: black;
+}
