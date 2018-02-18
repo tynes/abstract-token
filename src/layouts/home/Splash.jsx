@@ -13,7 +13,7 @@ class Splash extends Component {
             <Link to='/register'>
               <Button bsSize="large" className="landing-image-button" bsStyle="success">Tokenize Your Real Estate Asset</Button>
             </Link>
-            <Link to = '/exchange'>
+            <Link to = '/dashboard'>
               <Button bsSize="large" bsClass="purple-background" className="landing-image-button">Trade Fractional Shares of Real Estate</Button>
             </Link>
           </div>
