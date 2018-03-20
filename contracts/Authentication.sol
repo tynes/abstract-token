@@ -9,8 +9,6 @@ contract Authentication is Killable {
 
   mapping (address => User) private users;
 
-  uint private id; // Stores user id temporarily
-
   modifier onlyExistingUser {
     // Check if user exists or terminate
 
